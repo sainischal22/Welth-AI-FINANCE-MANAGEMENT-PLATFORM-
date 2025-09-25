@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "lib/utils.js", "components/ui/tooltip.jsx", "components/ui/table.jsx", "components/ui/switch.jsx", "components/ui/sonner.jsx", "components/ui/select.jsx", "components/ui/progress.jsx", "components/ui/popover.jsx", "components/ui/input.jsx", "components/ui/dropdown-menu.jsx", "components/ui/drawer.jsx", "components/ui/checkbox.jsx", "components/ui/card.jsx", "components/ui/calendar.jsx", "components/ui/button.jsx", "components/ui/badge.jsx", "components/hero.jsx", "components/header.jsx", "middleware.js", "app/page.js", "app/layout.js", "app/(auth)/layout.js", "app/(auth)/sign-up/[[...sign-up]]/page.jsx", "app/(auth)/sign-in/page.jsx", "actions/dashboard.js", "actions/dashboard.js", "data/landing.js", "lib/prisma.js", "lib/checkUser.js"],
   "exclude": ["node_modules"]
 }
